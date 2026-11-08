@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About — Haira M.A.K</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="brand"><span class="dot"></span>haira<span class="path">.dev</span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="certificates.html">Certificates</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="resume.html" class="nav-cta" target="_blank" rel="noopener">Résumé ↗</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section style="padding-top:64px;">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">About</div>
+      <h1>Still early. Already moving.</h1>
+      <p style="max-width:64ch;">
+        I'm a BCA student at Holy Cross College, Trichy (2024–2027), interested in full-stack development and IoT.
+        I learn by combining structured training with practical assignments and personal projects.
+      </p>
+    </div>
+
+    <div class="grid grid-2 reveal">
+      <div>
+        <h3>How I got here</h3>
+        <p>
+          I started with programming fundamentals such as Java, Python, and JavaScript. Alongside coursework,
+          I have explored technical training, IoT, MERN-stack development, and Python through internships
+          and learning programs. These experiences continue to shape my interest in building useful applications.
+        </p>
+        <p>
+          I'm also drawn to IoT — the idea that code can control something physical is what got me interested in
+          engineering in the first place, and it's a thread I want to keep pulling on alongside traditional
+          full-stack web work.
+        </p>
+      </div>
+      <div>
+        <h3>How I learn</h3>
+        <p>
+          I lean on structured programs to build a base — a HackerRank certificate in Python, Cybernaut EdTech's
+          Tech Trio Program (Python, C, Java, and a first look at Django and Flask), and a webinar on designing,
+          developing and deploying with AI tools that gave me a real workflow in Figma and basic UI/UX principles.
+          Then I try to immediately use whatever I learned on something small, which is usually where the real
+          learning happens.
+        </p>
+        <p>
+          I also take part in learning opportunities beyond coursework, including workshops,
+          webinars, and college activities.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid grid-3" style="margin-top:56px;">
+      <div class="card reveal">
+        <h3>What I bring</h3>
+        <p>Consistency. I keep learning through coursework, training programs, internships, and personal projects.</p>
+      </div>
+      <div class="card reveal">
+        <h3>What I'm working on</h3>
+        <p>Turning "basic" and "learning" into "comfortable." React, Node.js and MongoDB are current focus areas, and I'm building real projects instead of only tutorials to get there — see <a href="projects.html" style="color:var(--accent-cyan);">Projects</a>.</p>
+      </div>
+      <div class="card reveal">
+        <h3>What I'm honest about</h3>
+        <p>I'm not going to claim expert-level anywhere yet. My skills page marks what's solid, what's developing, and what I've only just started — on purpose.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <span>© <span id="year"></span> Haira M.A.K. Built with HTML, CSS &amp; JS.</span>
+    <div class="footer-links">
+      <a href="https://github.com/HxGalaxy-offical" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/haira-m-a-k" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
