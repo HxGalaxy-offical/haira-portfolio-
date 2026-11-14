@@ -1,332 +1,85 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Résumé — Haira M.A.K</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-
+<title>Résumé — Haira M A K</title>
 <style>
-:root {
-  --ink: #1a1c24;
-  --muted: #565b6e;
-  --accent: #0f766e;
-  --line: #dfe1e8;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  max-width: 780px;
-  margin: 48px auto;
-  padding: 0 24px 80px;
-  font-family: "IBM Plex Sans", sans-serif;
-  color: var(--ink);
-  line-height: 1.55;
-}
-
-.print-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 28px;
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.85rem;
-}
-
-.print-bar button {
-  font-family: "JetBrains Mono", monospace;
-  background: var(--accent);
-  color: #fff;
-  border: none;
-  padding: 10px 18px;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.print-bar a {
-  color: var(--muted);
-}
-
-h1 {
-  font-family: "Space Grotesk", sans-serif;
-  margin: 0 0 4px;
-  font-size: 2rem;
-}
-
-.role {
-  color: var(--accent);
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.95rem;
-  margin-bottom: 10px;
-}
-
-.contact-line {
-  font-size: 0.9rem;
-  color: var(--muted);
-  margin-bottom: 28px;
-}
-
-.contact-line a {
-  color: var(--muted);
-}
-
-h2 {
-  font-family: "JetBrains Mono", monospace;
-  text-transform: uppercase;
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
-  color: var(--accent);
-  border-bottom: 1px solid var(--line);
-  padding-bottom: 6px;
-  margin: 32px 0 14px;
-}
-
-.entry {
-  margin-bottom: 16px;
-}
-
-.entry-head {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  font-weight: 600;
-}
-
-.entry-org {
-  color: var(--muted);
-  font-size: 0.92rem;
-  margin-bottom: 4px;
-}
-
-.entry ul {
-  margin: 6px 0 0;
-  padding-left: 18px;
-  font-size: 0.93rem;
-}
-
-.entry li {
-  margin-bottom: 3px;
-}
-
-.tags {
-  font-size: 0.85rem;
-  color: var(--muted);
-  margin-top: 22px;
-}
-
-@media print {
-  .print-bar {
-    display: none;
-  }
-
-  body {
-    margin: 0;
-    padding: 0 8px;
-  }
-
-  a {
-    text-decoration: none;
-  }
-}
+  body { max-width: 780px; margin: 40px auto; padding: 0 24px 60px; font-family: Arial, Helvetica, sans-serif; color: #1a1c24; line-height: 1.45; font-size: 14px; }
+  .print-bar { display: flex; justify-content: flex-end; margin-bottom: 20px; }
+  .print-bar button { background: #0f766e; color: #fff; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; }
+  h1 { margin: 0; font-size: 26px; letter-spacing: 0.5px; }
+  .contact { color: #444; margin: 4px 0 14px; font-size: 13px; }
+  .contact a { color: #0f766e; }
+  h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid #0f766e; padding-bottom: 3px; margin: 18px 0 8px; color: #0f766e; }
+  .row { display: flex; justify-content: space-between; font-weight: bold; }
+  .sub { font-style: italic; color: #444; margin-bottom: 4px; }
+  ul { margin: 4px 0 8px 18px; padding: 0; }
+  li { margin-bottom: 2px; }
+  p { margin: 4px 0; }
+  @media print { .print-bar { display: none; } body { margin: 0; padding: 0; } }
 </style>
 </head>
-
 <body>
+<div class="print-bar"><button onclick="window.print()">Print / Save as PDF</button></div>
 
-<div class="print-bar">
-  <a href="index.html">← Back to portfolio</a>
-  <button onclick="window.print()">Print / Save as PDF</button>
+<h1>HAIRA M A K</h1>
+<div class="contact">
+  Pudukottai, Tamil Nadu · +91 9865748629 · <a href="mailto:hairahaira504@gmail.com">hairahaira504@gmail.com</a> ·
+  <a href="https://www.linkedin.com/in/haira-m-a-k-3885a2393/" target="_blank" rel="noopener">LinkedIn</a> ·
+  <a href="https://github.com/HxGalaxy-offical" target="_blank" rel="noopener">GitHub</a> ·
+  <a href="https://hxgalaxy-offical.github.io/haira-portfolio-/" target="_blank" rel="noopener">Portfolio</a>
 </div>
 
-<!-- HEADER -->
-
-<h1>Haira M.A.K</h1>
-
-<div class="role">
-  Aspiring Full Stack Developer · IoT Enthusiast
-</div>
-
-<div class="contact-line">
-  Trichy, Tamil Nadu, India ·
-  <a href="mailto:hairamofficial@gmail.com">hairamofficial@gmail.com</a> ·
-  <a href="https://linkedin.com/in/haira-m-a-k" target="_blank" rel="noopener">
-    LinkedIn
-  </a> ·
-  <a href="https://github.com/HxGalaxy-offical" target="_blank" rel="noopener">
-    GitHub
-  </a>
-</div>
-
-<!-- SUMMARY -->
-
-<h2>Professional Summary</h2>
-
-<p>
-Final-year Bachelor of Computer Applications (BCA) student at Holy Cross
-College, Trichy, with an academic CGPA of 8.96/10. Interested in full-stack
-development and building practical, user-friendly applications. Familiar
-with Java, Python, web technologies, and IoT concepts. Gaining practical
-experience through internships, technical training, and personal projects.
-</p>
-
-<!-- EXPERIENCE -->
-
-<h2>Experience & Training</h2>
-
-<div class="entry">
-  <div class="entry-head">
-    <span>Web Development Trainee — BeeSkilled</span>
-    <span>Nov 2026 – Present</span>
-  </div>
-  <ul>
-    <li>
-      Currently developing web development skills through structured
-      training and practical assignments.
-    </li>
-  </ul>
-</div>
-
-<div class="entry">
-  <div class="entry-head">
-    <span>Python Intern — Cybernaut EdTech</span>
-  </div>
-  <ul>
-    <li>
-      Gained practical exposure to Python programming through the
-      Tech Trio learning program.
-    </li>
-  </ul>
-</div>
-
-<div class="entry">
-  <div class="entry-head">
-    <span>MERN Full Stack Intern — T4TEQ Software Solutions</span>
-  </div>
-  <ul>
-    <li>Worked with React.js for frontend development.</li>
-    <li>Gained exposure to Node.js and Express.js.</li>
-    <li>Practiced MongoDB, REST APIs, and CRUD operations.</li>
-    <li>Learned responsive web development concepts.</li>
-  </ul>
-</div>
-
-<div class="entry">
-  <div class="entry-head">
-    <span>IoT Intern — College Internship Program</span>
-  </div>
-  <ul>
-    <li>Gained exposure to Internet of Things concepts through an internship program.</li>
-  </ul>
-</div>
-
-<div class="entry">
-  <div class="entry-head">
-    <span>Technical Intern — Synergy</span>
-  </div>
-  <div class="entry-org">
-    Entrepreneurship & Technology
-  </div>
-  <ul>
-    <li>Participated in an entrepreneurship and technology-related program.</li>
-  </ul>
-</div>
-
-<!-- EDUCATION -->
-
-<h2>Education</h2>
-
-<div class="entry">
-  <div class="entry-head">
-    <span>Bachelor of Computer Applications (BCA)</span>
-    <span>2024 – 2027</span>
-  </div>
-  <div class="entry-org">
-    Holy Cross College, Tiruchirappalli
-  </div>
-  <div>CGPA: 8.96/10</div>
-</div>
-
-<!-- CERTIFICATIONS -->
-
-<h2>Certifications</h2>
-
-<ul>
-  <li>Python (Basic) — HackerRank</li>
-  <li>Tech Trio Program — Cybernaut EdTech (Python, C++, Java)</li>
-  <li>3D Webinar: Design, Develop, Deploy Using AI Tools — Error Makes Clever</li>
-  <li>LinkedIn, Positioning & Networking Workshop — Cybernaut EdTech</li>
-  <li>Basic Fundamentals of IELTS — Edroots Learning</li>
-  <li>Video Editing Webinar — Brand Monk Academy</li>
-  <li>Deloitte Australia Technology Job Simulation — Forage</li>
-  <li>Viksit Bharat Young Leaders Dialogue 2027 — Participation Certificate</li>
-</ul>
-
-<!-- SKILLS -->
+<h2>Summary</h2>
+<p>BCA student (2027) with hands-on experience in Python, Java, SQL, and database-driven applications. Built CRUD-based projects with Spring Boot, Django, and MySQL, and completed MySQL training. Seeking an Analyst Trainee role to apply data handling and problem-solving skills.</p>
 
 <h2>Technical Skills</h2>
+<ul>
+  <li><strong>Databases:</strong> SQL (MySQL), CRUD operations, MongoDB, SQLite</li>
+  <li><strong>Languages:</strong> Python, Java, JavaScript, HTML, CSS</li>
+  <li><strong>Frameworks and Libraries:</strong> Spring Boot, Django, React.js, Node.js, Express.js, pandas, Selenium</li>
+  <li><strong>Tools:</strong> Excel, Git, GitHub</li>
+</ul>
 
-<div class="tags">
-  Java · Python · C++ · JavaScript · HTML5 · CSS3 · React.js ·
-  Node.js · Angular Basics · MySQL · MongoDB Basics ·
-  Git & GitHub · REST APIs · IoT · Problem Solving
-</div>
+<h2>Experience and Training</h2>
+<div class="row"><span>Java Developer Intern (OOP &amp; Projects)</span><span>Nov – Dec 2026</span></div>
+<div class="sub">Skill Nexis (Online) · Ongoing</div>
+<ul><li>Completed Week 1 Java assignments: calculator, grade evaluation with conditional logic, and a menu-driven bank console app (deposit, withdraw, balance).</li></ul>
 
-<!-- PROJECTS -->
+<div class="row"><span>MERN Full Stack Training</span><span>Oct – Dec 2026</span></div>
+<div class="sub">BeeSkilled (Online) · Current</div>
+<ul><li>Completed Week 1 assignment: responsive personal portfolio website using HTML and CSS.</li></ul>
+
+<div class="row"><span>MERN Full Stack Intern</span><span>Jul 2026</span></div>
+<div class="sub">T4TEQ Software Solutions, Kattur</div>
+<ul><li>Worked with a team on a vehicle parking system page; practised CRUD operations (add, update, delete) with MongoDB.</li></ul>
+
+<div class="row"><span>Python Project Intern</span><span>Jun – Sep 2026</span></div>
+<div class="sub">Cybernaut EdTech Private Limited</div>
+<ul><li>Completed a structured program in web scraping, machine learning, and Flask/Django, with Python-based project work.</li></ul>
 
 <h2>Projects</h2>
+<div class="row"><span>JobTrack (Java, Spring Boot, MySQL)</span><span><a href="https://github.com/HxGalaxy-offical/jobtrack" target="_blank" rel="noopener">GitHub</a></span></div>
+<ul><li>Built a job application tracker with CRUD operations, input validation, user login, BCrypt password hashing, and CSV export.</li></ul>
 
-<div class="entry">
-  <div class="entry-head">
-    <span>Java-Based Bus Reservation System</span>
-  </div>
-  <ul>
-    <li>Developing a bus reservation application using Java.</li>
-  </ul>
-</div>
+<div class="row"><span>Crypto Price Tracker (Python, Selenium, pandas)</span><span></span></div>
+<ul><li>Collects the top 10 cryptocurrencies from CoinMarketCap and saves the latest snapshot to Excel, with a running history file.</li></ul>
 
-<div class="entry">
-  <div class="entry-head">
-    <span>AI Learning Buddy</span>
-  </div>
-  <ul>
-    <li>
-      Developed an AI-based learning application using Python,
-      Streamlit, and Gemini.
-    </li>
-    <li>
-      Includes concept explanations, real-life examples,
-      quiz generation, and an ask-anything feature.
-    </li>
-  </ul>
-</div>
+<div class="row"><span>Smart Expense Tracker (Python, Django, SQLite)</span><span></span></div>
+<ul><li>Wrote views and templates for login, add, edit, and delete expenses, a dashboard, and CSV and PDF reports.</li></ul>
 
-<div class="entry">
-  <div class="entry-head">
-    <span>Manstrat</span>
-  </div>
-  <ul>
-    <li>Currently working on the project.</li>
-  </ul>
-</div>
+<h2>Education</h2>
+<div class="row"><span>BCA, Holy Cross College (Autonomous), Tiruchirappalli</span><span>2024 – 2027</span></div>
+<div class="sub">CGPA 8.96/10 (up to Semester 4)</div>
 
-<div class="entry">
-  <div class="entry-head">
-    <span>Udemy Clone</span>
-  </div>
-  <ul>
-    <li>Created a website interface using HTML and CSS.</li>
-    <li>
-      <a href="https://hxgalaxy-offical.github.io/Udemy-clone/"
-         target="_blank" rel="noopener">
-        View Project
-      </a>
-    </li>
-  </ul>
-</div>
-
+<h2>Certifications</h2>
+<ul>
+  <li>MySQL Essential Training, LinkedIn Learning (Nov 2026)</li>
+  <li>Python (Basic), HackerRank</li>
+  <li>Tech Trio Program, Cybernaut EdTech</li>
+  <li>Technology Job Simulation, Deloitte Australia (Forage)</li>
+  <li>Excel Mastery (Certificate of Participation), Synergy (Jun 2026)</li>
+</ul>
 </body>
 </html>

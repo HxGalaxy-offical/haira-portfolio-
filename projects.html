@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Projects — Haira M.A.K</title>
+<title>Projects — Haira M A K</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -19,8 +19,8 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="experience.html">Experience</a></li>
-      <li><a href="certificates.html">Certificates</a></li>
       <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="certificates.html">Certificates</a></li>
       <li><a href="skills.html">Skills</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li><a href="resume.html" class="nav-cta" target="_blank" rel="noopener">Résumé ↗</a></li>
@@ -30,176 +30,95 @@
 
 <section style="padding-top:64px;">
   <div class="container">
-    <div class="section-head reveal">
-      <div class="eyebrow">Shipped</div>
-      <h1>What's live on GitHub today</h1>
-      <p style="max-width:64ch;">Two frontend clones that I built to get comfortable with layout, structure and real-world UI patterns.</p>
-    </div>
 
+    <div class="section-head reveal">
+      <div class="eyebrow">Projects</div>
+      <h1>What I have built</h1>
+      <p style="max-width:64ch;">Three main projects and two frontend clones, all with source code on GitHub.</p>
+    </div>
     <div class="grid grid-2">
       <div class="card project-card reveal">
-        <div class="project-status">● Shipped</div>
-        <h3>LinkedIn Clone</h3>
-        <p>A frontend recreation of LinkedIn's core layout and feed structure, built to practice semantic HTML and CSS layout at a "real product" level of complexity.</p>
+        <div class="project-status">● Backend project</div>
+        <h3>JobTrack — Job Application Tracker</h3>
+        <p>A web app to track job applications with user login and data validation.</p>
+        <ul class="feature-list">
+          <li>CRUD operations for job applications</li>
+          <li>Input validation and user login</li>
+          <li>BCrypt password hashing</li>
+          <li>CSV export</li>
+        </ul>
         <div class="project-stack">
-          <span class="tag tag-cyan">HTML5</span>
-          <span class="tag tag-cyan">CSS3</span>
+          <span class="tag tag-amber">Java</span>
+          <span class="tag tag-amber">Spring Boot</span>
+          <span class="tag">MySQL</span>
         </div>
-        <div class="project-note"><a href="https://github.com/HxGalaxy-offical" target="_blank" rel="noopener" style="color:var(--accent-cyan);">View on GitHub ↗</a></div>
+        <div class="project-note"><a href="https://github.com/HxGalaxy-offical/jobtrack" target="_blank" rel="noopener" style="color:var(--accent-cyan);">View on GitHub ↗</a></div>
       </div>
       <div class="card project-card reveal">
-        <div class="project-status">● Shipped</div>
-        <h3>Udemy Clone</h3>
-        <p>A frontend recreation of Udemy's course-marketplace layout — cards, categories, and navigation patterns for a content-heavy platform.</p>
+        <div class="project-status">● Python project</div>
+        <h3>Crypto Price Tracker</h3>
+        <p>Collects the top 10 cryptocurrencies from CoinMarketCap and saves the latest snapshot to Excel, with a running history file.</p>
+        <ul class="feature-list">
+          <li>Fields: date, coin name, price, 24h change, market cap</li>
+          <li>Writes a snapshot file and appends to a history file</li>
+        </ul>
         <div class="project-stack">
-          <span class="tag tag-cyan">HTML5</span>
-          <span class="tag tag-cyan">CSS3</span>
+          <span class="tag tag-amber">Python</span>
+          <span class="tag tag-amber">Selenium</span>
+          <span class="tag">pandas</span>
         </div>
-        <div class="project-note"><a href="https://github.com/HxGalaxy-offical" target="_blank" rel="noopener" style="color:var(--accent-cyan);">View on GitHub ↗</a></div>
+      </div>
+      <div class="card project-card reveal">
+        <div class="project-status">● Built during Cybernaut internship</div>
+        <h3>Smart Expense Tracker</h3>
+        <p>A Django web app for recording and reporting personal expenses.</p>
+        <ul class="feature-list">
+          <li>Login, add, edit and delete expenses</li>
+          <li>Dashboard with CSV and PDF reports</li>
+          <li>Rule-based category suggestion from keywords</li>
+        </ul>
+        <div class="project-stack">
+          <span class="tag tag-amber">Python</span>
+          <span class="tag tag-amber">Django</span>
+          <span class="tag">SQLite</span>
+        </div>
       </div>
     </div>
-  </div>
-</section>
 
-<section>
-  <div class="container">
-    <div class="section-head reveal">
-      <div class="eyebrow">Roadmap</div>
-      <h2>Six builds to prove out full-stack + IoT</h2>
-      <p style="max-width:70ch;">
-        These aren't built yet — they're the plan. Each is scoped to be realistic with Java, HTML, CSS and JavaScript,
-        and each deliberately borrows something from an internship or competition so the project reads as "informed
-        by experience," not just "another tutorial clone."
-      </p>
-    </div>
-
-    <div class="grid grid-2">
-
-      <div class="card project-card reveal">
-        <div class="project-status">01 · Web app + database</div>
-        <h3>StudyDesk — Personal Study &amp; Task Tracker</h3>
-        <p>A task and study-session tracker for students: log subjects, deadlines, and time spent, with a running streak counter.</p>
-        <ul class="feature-list">
-          <li>CRUD for tasks/subjects with due dates and priority levels</li>
-          <li>Study-session timer that logs completed sessions to the database</li>
-          <li>Simple login so data persists per user</li>
-          <li>Weekly summary view (tasks completed, hours logged)</li>
-        </ul>
-        <div class="project-stack">
-          <span class="tag tag-amber">Java (Servlets/Spring Boot) — backend + business logic</span>
-          <span class="tag">MySQL — persistence</span>
-          <span class="tag">HTML/CSS/JS — UI + timer logic</span>
-        </div>
-      </div>
-
-      <div class="card project-card reveal">
-        <div class="project-status">02 · Data visualization</div>
-        <h3>Skill Growth Dashboard</h3>
-        <p>An interactive dashboard visualizing your own learning journey — skills, certificates and internships plotted over time.</p>
-        <ul class="feature-list">
-          <li>Timeline chart of certificates/internships by date</li>
-          <li>Skill radar or bar chart with filters by category (language, framework, tool)</li>
-          <li>Click a data point to see the certificate or internship it represents</li>
-          <li>Data loaded from a simple JSON file so it's easy to update</li>
-        </ul>
-        <div class="project-stack">
-          <span class="tag">JavaScript (Chart.js or D3) — visualization</span>
-          <span class="tag">HTML/CSS — layout</span>
-          <span class="tag tag-amber">Java — optional backend to serve data via a small API</span>
-        </div>
-      </div>
-
-      <div class="card project-card reveal">
-        <div class="project-status">03 · REST API project</div>
-        <h3>Campus Events API + Client</h3>
-        <p>A REST API for posting and browsing college events (workshops, competitions, seminars), with a clean JS frontend consuming it.</p>
-        <ul class="feature-list">
-          <li>Endpoints: create/list/update/delete events, RSVP count</li>
-          <li>Filtering by category (workshop, competition, seminar) and date</li>
-          <li>Frontend fetches and renders via the Fetch API — no page reloads</li>
-          <li>Basic input validation and error responses (400/404) handled gracefully in the UI</li>
-        </ul>
-        <div class="project-stack">
-          <span class="tag tag-amber">Java (Spring Boot) — REST API</span>
-          <span class="tag">MySQL/MongoDB — storage</span>
-          <span class="tag">JavaScript (Fetch API) — client</span>
-        </div>
-      </div>
-
-      <div class="card project-card reveal">
-        <div class="project-status">04 · Original platform clone</div>
-        <h3>MicroCourse — A Course Marketplace, Reimagined</h3>
-        <p>Not a straight Udemy clone — take the marketplace layout you already practiced and add an original angle: peer-taught micro-courses (15–30 min lessons) for classmates.</p>
-        <ul class="feature-list">
-          <li>Course listing with search and category filters</li>
-          <li>Instructor "create a course" flow (title, description, short lesson list)</li>
-          <li>Progress tracking per enrolled course (checkboxes → progress bar)</li>
-          <li>Responsive card grid that reflows cleanly from desktop to mobile</li>
-        </ul>
-        <div class="project-stack">
-          <span class="tag tag-amber">Java or Node.js — backend, whichever you want to strengthen</span>
-          <span class="tag">MongoDB — flexible course/lesson documents</span>
-          <span class="tag">HTML/CSS/JS — responsive UI</span>
-        </div>
-      </div>
-
-      <div class="card project-card reveal">
-        <div class="project-status">05 · Real-time collaboration</div>
-        <h3>Group Study Room</h3>
-        <p>A live room where a small group can chat and co-edit a shared notes panel in real time — useful for exam-prep groups.</p>
-        <ul class="feature-list">
-          <li>Real-time chat per room using WebSockets</li>
-          <li>Shared text/notes area that updates live for everyone in the room</li>
-          <li>Simple room codes to join instead of full auth (keeps scope realistic)</li>
-          <li>"Who's online" indicator</li>
-        </ul>
-        <div class="project-stack">
-          <span class="tag">Node.js + Socket.io — real-time layer</span>
-          <span class="tag">JavaScript — client-side sync logic</span>
-          <span class="tag">HTML/CSS — room UI</span>
-        </div>
-      </div>
-
-      <div class="card project-card reveal">
-        <div class="project-status">06 · Problem-solving utility</div>
-        <h3>IoT Dashboard Simulator</h3>
-        <p>Since real sensor hardware isn't always available, simulate an IoT dashboard: a backend that generates realistic sensor data (temperature, humidity, motion) and a frontend that visualizes it live.</p>
-        <ul class="feature-list">
-          <li>Java service that simulates sensor readings on an interval</li>
-          <li>Live-updating charts and threshold alerts (e.g. "temperature too high")</li>
-          <li>Device list with online/offline status</li>
-          <li>Clean, dashboard-style UI — a direct place to apply the UI/UX principles from your design webinar</li>
-        </ul>
-        <div class="project-stack">
-          <span class="tag tag-amber">Java — data simulation logic</span>
-          <span class="tag">JavaScript (Chart.js + polling or WebSockets) — live dashboard</span>
-          <span class="tag">HTML/CSS — layout, styled with your Figma/UI-UX learnings</span>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="editme-block reveal" style="margin-top:8px;">
-      <div class="editme-title">How to use this roadmap</div>
-      Don't build all six at once. Pick one you're most excited about, finish it end-to-end (including a README with
-      screenshots and a live demo link), then move to the next. A single polished, documented project outperforms
-      three half-finished ones on a portfolio.
-    </div>
   </div>
 </section>
 
 <footer>
   <div class="container">
-    <span>© <span id="year"></span> Haira M.A.K. Built with HTML, CSS &amp; JS.</span>
+    <span>© <span id="year"></span> Haira M A K</span>
     <div class="footer-links">
       <a href="https://github.com/HxGalaxy-offical" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://linkedin.com/in/haira-m-a-k" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/haira-m-a-k-3885a2393/" target="_blank" rel="noopener">LinkedIn</a>
       <a href="contact.html">Contact</a>
+      <div class="card project-card reveal">
+        <div class="project-status">● Frontend clone</div>
+        <h3>LinkedIn Clone</h3>
+        <p>A frontend recreation of LinkedIn's core layout and feed structure, built to practise semantic HTML and CSS layout.</p>
+        <div class="project-stack">
+          <span class="tag tag-cyan">HTML5</span>
+          <span class="tag tag-cyan">CSS3</span>
+        </div>
+        <div class="project-note"><a href="https://github.com/HxGalaxy-offical" target="_blank" rel="noopener" style="color:var(--accent-cyan);">View on GitHub ↗</a></div>
+      </div>
+      <div class="card project-card reveal">
+        <div class="project-status">● Frontend clone</div>
+        <h3>Udemy Clone</h3>
+        <p>A frontend recreation of Udemy's course-marketplace layout: course cards, categories and navigation.</p>
+        <div class="project-stack">
+          <span class="tag tag-cyan">HTML5</span>
+          <span class="tag tag-cyan">CSS3</span>
+        </div>
+        <div class="project-note"><a href="https://github.com/HxGalaxy-offical" target="_blank" rel="noopener" style="color:var(--accent-cyan);">View on GitHub ↗</a></div>
+      </div>
     </div>
   </div>
 </footer>
 
 <script src="js/script.js"></script>
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
